@@ -7,22 +7,22 @@ import nodeImg from '../assets/node.png';
 const certificates = [
   {
     title: 'Complete Front End Development Journey',
-    issuer: 'Udemy',
-    date: '2023',
+    issuer: 'Infosys',
+    date: '2026',
     description: 'Comprehensive training in modern frontend technologies and responsive design.',
     image: webImg,
   },
   {
     title: 'Node.js & Express Complete',
-    issuer: 'Udemy',
-    date: '2023',
+    issuer: 'Infosys',
+    date: '2026',
     description: 'Advanced backend development with Node.js, Express, and MongoDB.',
     image: nodeImg,
   },
   {
     title: 'Zero to AI Tester',
-    issuer: 'Testmau',
-    date: '2024',
+    issuer: 'GeeksforGeeks',
+    date: '2026',
     description: 'Specialized certification in AI-driven testing and quality assurance.',
     image: testMauImg,
   }
