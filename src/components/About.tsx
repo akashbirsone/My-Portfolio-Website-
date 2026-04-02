@@ -17,10 +17,13 @@ const AnimatedCounter = ({ end, suffix, isVisible }: { end: number, suffix: stri
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    if (!isVisible) return;
+    if (!isVisible) {
+      setCount(0);
+      return;
+    }
 
     let startTime: number | null = null;
-    const duration = 2000; // 2 seconds
+    const duration = 3000; // 3 seconds
 
     const animate = (currentTime: number) => {
       if (!startTime) startTime = currentTime;
@@ -48,11 +51,9 @@ export default function About() {
 
   useEffect(() => {
     const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect();
-        }
+      (entries) => {
+        const [entry] = entries;
+        setIsVisible(entry.isIntersecting);
       },
       { threshold: 0.2 }
     );
@@ -113,9 +114,9 @@ export default function About() {
                       className="h-full bg-primary rounded-full transition-all"
                       style={{
                         width: isVisible ? `${skill.level}%` : '0%',
-                        transitionDuration: '0.6s',
+                        transitionDuration: '1.5s',
                         transitionTimingFunction: 'cubic-bezier(0.4, 0, 0.2, 1)',
-                        transitionDelay: `${index * 50}ms`
+                        transitionDelay: `${index * 100}ms`
                       }}
                     ></div>
                   </div>
