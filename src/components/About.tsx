@@ -72,7 +72,7 @@ export default function About() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">About Me</h2>
             <p className="text-text-muted text-lg mb-8 leading-relaxed">
-              I'm a passionate Frontend Developer skilled in HTML, CSS, JavaScript, and React. I build responsive and user-friendly web applications with a focus on real-world projects like Class Quiz Portal, Resume Builder, and Library Management System. Currently learning Node.js, Express, and MongoDB to grow as a Full Stack Developer.
+              I am a Full Stack Developer (Frontend-focused) with hands-on experience building modern, AI-powered web applications using React, TypeScript, and Firebase. I have developed and deployed real-world projects including an AI-driven Quiz Platform, Resume Builder, and Library Management System. I specialize in creating responsive, user-friendly interfaces and integrating AI APIs to automate workflows and improve user experience. Currently, I am expanding my backend skills with Node.js and Express to build scalable full-stack applications.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

@@ -73,7 +73,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={heroRef} className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+    <section id="home" ref={heroRef} className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Dynamic Radial Gradient Glow (Desktop) */}
       <div 
         ref={glowRef}
@@ -108,8 +108,7 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-lg text-text-muted mb-10 max-w-2xl leading-relaxed">
-            I build exceptional and accessible digital experiences for the web.
-            Passionate about creating scalable, user-centric applications using modern technologies.
+            I build modern, scalable web applications using React, TypeScript, and AI-powered solutions. Focused on creating responsive, user-friendly experiences through real-world projects.
           </p>
 
           {/* CTA Buttons */}

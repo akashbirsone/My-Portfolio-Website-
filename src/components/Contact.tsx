@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Instagram } from 'lucide-react';
+import { Mail, Linkedin, Github, FileText } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="bg-background border border-white/10 rounded-3xl p-10 md:p-16 text-center shadow-2xl">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">Let's work together</h2>
           <p className="text-text-muted text-lg mb-10 max-w-xl mx-auto">
-            I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            I'm actively seeking opportunities as a Frontend / Full Stack Developer. If you have a project idea, collaboration, or job opportunity, feel free to reach out — I'd love to connect and build something impactful.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-2xl mx-auto">
@@ -40,13 +40,13 @@ export default function Contact() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://www.instagram.com/akash_birsone_21"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 bg-surface-light hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-medium transition-colors duration-200"
             >
-              <Instagram size={20} />
-              <span>Instagram</span>
+              <FileText size={20} />
+              <span>Resume</span>
             </a>
           </div>
         </div>
