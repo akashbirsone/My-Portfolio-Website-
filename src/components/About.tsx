@@ -9,7 +9,6 @@ const skills = [
   { name: 'React/TypeScript', level: 90 },
   { name: 'Node.js/Express', level: 70 },
   { name: 'Firebase/Supabase', level: 80 },
-  { name: 'MongoDB', level: 50 },
   { name: 'REST APIs', level: 90 },
 ];
 

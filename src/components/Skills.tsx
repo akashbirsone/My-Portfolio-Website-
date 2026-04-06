@@ -1,4 +1,4 @@
-import { FileJson, Atom, Flame, Database, FileCode2, Paintbrush, Globe, Leaf, Server, Cpu } from 'lucide-react';
+import { FileJson, Atom, Flame, Database, FileCode2, Paintbrush, Globe, Server, Cpu } from 'lucide-react';
 
 const row1 = [
   { name: 'HTML5', icon: Globe, color: '#E34F26' },
@@ -11,7 +11,6 @@ const row1 = [
 const row2 = [
   { name: 'Node.js', icon: Server, color: '#339933' },
   { name: 'Express', icon: Cpu, color: '#FFFFFF' },
-  { name: 'MongoDB', icon: Leaf, color: '#47A248' },
   { name: 'Firebase', icon: Flame, color: '#FFCA28' },
   { name: 'Supabase', icon: Database, color: '#3ECF8E' },
 ];

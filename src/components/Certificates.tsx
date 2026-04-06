@@ -16,7 +16,7 @@ const certificates = [
     title: 'Node.js & Express Complete',
     issuer: 'Infosys',
     date: '2026',
-    description: 'Advanced backend development with Node.js, Express, and MongoDB.',
+    description: 'Advanced backend development with Node.js and Express.',
     image: nodeImg,
   },
   {
