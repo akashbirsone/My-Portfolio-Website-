@@ -40,7 +40,7 @@ export default function Contact() {
               <span>GitHub</span>
             </a>
             <a
-              href="/resume.pdf"
+              href="/Akash_Birsone_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center space-x-2 bg-surface-light hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-xl font-medium transition-colors duration-200"
